@@ -10,7 +10,7 @@ public class Question3 {
 
 		int[] myArray = { 2, 4, 6, 8, 10 };
 
-		int x = 10;
+		int x = 20;
 
 		int index = 0;
 

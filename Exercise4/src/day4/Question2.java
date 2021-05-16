@@ -7,6 +7,7 @@ public class Question2 {
 		 * Question Write a Java program to test if an array contains a specific value.
 		 */
 		// DataType Variable = Value
+		//
 
 		int[] myArray = new int[10];
 

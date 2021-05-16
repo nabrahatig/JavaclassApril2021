@@ -41,7 +41,8 @@ public class Question3 {
 			System.out.println("Weekday");
 		} else {
 			System.out.println("Weekend");
-			Default: System.out.println("That is not a day");
+		Default: 
+			System.out.println("That is not a day");
 
 		}
 		input.close();

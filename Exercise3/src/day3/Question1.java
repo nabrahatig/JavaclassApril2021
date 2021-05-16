@@ -16,6 +16,7 @@ public class Question1 {
 		 */
 
 		int sum = 0;
+		//initialization Condition incr/dec
 
 		for (int i = 0; i <= 10; i++) {
 
