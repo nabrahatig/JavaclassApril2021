@@ -1,6 +1,5 @@
 package question4;
 
-import java.util.Scanner;
 
 public class Question1 {
 

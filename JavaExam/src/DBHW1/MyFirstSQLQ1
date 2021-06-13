@@ -1,0 +1,80 @@
+
+		Database exercise1.
+		
+	1.Create a database called school;
+
+	2.Create Student table with studentId, first_name, last_name and address. Make studentId the primary key3
+		
+		CREATE TABLE student1 (
+		
+		'idStudent1 'INT not null,
+		'FirstName' varchar (44) not null,
+		'LastName' varchar (44) not null,
+		'address' varchar (44) not null,
+		'PRIMARY KEY (student _id));
+		
+		
+	3.Create Course table with courseId, course_name, course_credit. Use courseId as primary key
+		
+		 CREATE TABLE Course (
+		 idcorse INT not null,
+		 courseName varchar (100) not null,
+		 courseCredit varchar (100)not null,
+		 PRIMARY KEY (course_id);
+		 
+	4.Insert 5 rows in each table
+		
+		INSERT INTO 'student' VALUES (1,'Wawa','Hailay','Arlington'),
+		INSERT INTO 'student' VALUES (2,'Azeb','Abraha','Chicago'),
+		 INSERT INTO 'student' VALUES (3,'Lula','Nahom','Charlote'),
+		 INSERT INTO 'student' VALUES (4,'Martha','Kinfe','Sanjose'),
+		 INSERT INTO 'student' VALUES (5,'Milu','Baba','Shire');
+		   ___________________
+		 INSERT INTO 'Course' VALUES ( 1,'database','3'),
+		 INSERT INTO 'Course' VALUES ( 2, 'java', '3'),
+		 INSERT INTO 'Course' VALUES ( 3, 'mule','5'),
+		 INSERT INTO 'Course' VALUES ( 4, 'web','1'),
+		 INSERT INTO 'Course' VALUES (  5, 'network','7');*
+		
+	5.5.Retrieve all rows from each table
+		*USE school
+      	SELECT *
+     	 FROM students
+     	 
+   	6.Retrieve a row whose id number is 3
+
+		USE School;
+		SELECT *
+		FROM Student1
+		Where idStudent1=3
+		
+	7.Update any column in any row
+		
+	Select * from Course
+ 	* Update course 
+ 	* SET CourseName='database'
+ 	* WHERE idCourse = 12;
+ 
+	8.Delete specific rows in each table using their ids or other column values
+	 * SELECT * FROM Student1;
+	DELETE FROM Course	
+	WHERE idcourse =5;*/
+		
+	
+	//DAY TWO 
+	
+	
+	1.Create the DB ,tables and load the data in the example
+	day-four
+	
+	//select first and last name of employees with salaries greater than 10000 and hired after 1998 
+	// and do not include employees from Administration and the employees should be from Australia or Canada.use day_four_db;
+	
+	2.
+	
+	
+	
+	
+	
+	
+	
